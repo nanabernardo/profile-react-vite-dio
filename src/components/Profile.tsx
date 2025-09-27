@@ -1,4 +1,4 @@
-export function Profile() {
+const Profile = () => {
   return (
     <div>
       <img
@@ -30,19 +30,6 @@ export function Profile() {
       </p>
     </div>
   );
-}
+};
 
-export function Job() {
-  return (
-    <div>
-      <h4>Freelancer</h4>
-      <p>
-        Desenvolvimento de interfaces responsivas utilizando HTML5, CSS e
-        JavaScript. Criação de páginas institucionais e aplicações front-end
-        dinâmicas com React.js, incluindo integração com APIs e atenção a UI/UX
-        para garantir usabilidade e acessibilidade. Atuação em ajustes de
-        layout, manutenção de código e otimização de desempenho em projetos web.
-      </p>
-    </div>
-  );
-}
+export default Profile;
